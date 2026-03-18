@@ -1,0 +1,10 @@
+services:
+  poller:
+    build: .
+    env_file: .env
+    volumes:
+      - state:/data
+    restart: unless-stopped
+
+volumes:
+  state:
