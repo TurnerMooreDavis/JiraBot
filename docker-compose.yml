@@ -4,6 +4,7 @@ services:
     env_file: .env
     volumes:
       - state:/data
+      - ./users.json:/data/users.json:ro
     restart: unless-stopped
 
 volumes:

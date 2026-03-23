@@ -1,3 +1,5 @@
 .env
+users.json
+.venv/
 __pycache__/
 state.json

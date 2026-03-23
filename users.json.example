@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Your Name",
+    "jira_email": "you@example.com",
+    "jira_api_token": "your-jira-api-token",
+    "jira_display_name": "Your Name",
+    "discord_webhook_url": "https://discord.com/api/webhooks/your/webhook",
+    "discord_user_id": "",
+    "enabled": true
+  }
+]
